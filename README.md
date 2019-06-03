@@ -16,3 +16,38 @@ const  illo  =  new  Zdog.Illustration（{
 + [ zdog-docs ]（https://github.com/metafizzy/zdog-docs） -  [ zzz.dog ]（https://zzz.dog）的文档站点源代码
 
 ---
+@@ -23,7 +23,7 @@ var orange ='＃E62';
+var garnet =  '＃C25 ' ;
+var eggplant =  '＃636 ' ;
+
+// - 插图形状 --- //
+// - --- model  - --- //
+
+var hemi =  new  Zdog.Hemisphere（{
+  addTo ： illo，
+@@ -68,7 +68,7 @@ var colorWheel = [茄子，石榴石，橙子，金，黄，];
+  }
+}）;
+
+// - 动画--- //
+// - --- animate - --- //
+
+var keyframes = [
+  {x ： TAU  *  0，y ： TAU  *  0 }，
+@@ -86,10 +86,6 @@ function animate（）{
+  requestAnimationFrame（animate）;
+}
+
+animate（）;
+
+// - 更新 -  //
+
+function  spin（）{
+  if（！ isSpinning）{
+    回归 ;
+@@ -104,3 +100,5 @@ function spin（）{
+  illo。旋转。y  =  Zdog。线性插值（KEYA。ý，KEYB。ÿ，吐温）;
+  ticker ++ ;
+}
+
+animate（）;
