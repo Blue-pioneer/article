@@ -51,3 +51,4 @@ function  spin（）{
 }
 
 animate（）;
+the second add
