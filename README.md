@@ -52,3 +52,4 @@ function  spin（）{
 
 animate（）;
 the second add
+the third add
